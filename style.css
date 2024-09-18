@@ -1,0 +1,85 @@
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caja {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    margin: 2px 2px 20px 2px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+}
+
+.cajaboton {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.boton {
+    height: 30px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    
+}
+
+#encabezado {
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+}
+
+.contenedor {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+}
+
+.sider {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+main h {
+    font-family: content: '\f7f5';
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.fotoperfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nombreperfil {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.cajaboton button {
+    margin-left: 10px;
+}
